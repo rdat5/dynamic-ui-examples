@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-ui-examples",
+  "version": "1.0.0",
+  "description": "Various examples of dynamic ui interactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdat5/dynamic-ui-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdat5/dynamic-ui-examples/issues"
+  },
+  "homepage": "https://github.com/rdat5/dynamic-ui-examples#readme",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
