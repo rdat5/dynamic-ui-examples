@@ -28,10 +28,32 @@ body {
 }
 .page-nav {
     background-color: #bbdefb;
+    display: flex;
+    justify-content: center;
+}
+.menu-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.menu-container button
+{
+    font-size: 1.125rem;
+    width: 10rem;
+}
+.drop-down-content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px black;
+    gap: 0.5rem;
+    width: 10rem;
+    position: absolute;
+    background-color: white;
 }
 .page-main {
     background-color: #dcedc8;
 }
 .page-footer {
     background-color: #ffecb3;
+    font-size: 0.8rem;
 }
