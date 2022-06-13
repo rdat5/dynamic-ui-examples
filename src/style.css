@@ -1,3 +1,9 @@
+:root {
+    --gainsboro: #D8DBE2;
+    --lightsteelblue: #A9BCD0;
+    --cadetblue: #58A4B0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -24,10 +30,12 @@ body {
     text-align: center;
 }
 .page-header {
-    background-color: #ffcdd2;
+    background-color: var(--cadetblue);
+    color: white;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.33);
 }
 .page-nav {
-    background-color: #bbdefb;
+    background-color: var(--lightsteelblue);
     display: flex;
     justify-content: center;
 }
@@ -52,7 +60,7 @@ body {
     background-color: white;
 }
 .page-main {
-    background-color: #dcedc8;
+    background-color: var(--gainsboro);
     display: grid;
     place-items: center;
 }
@@ -106,6 +114,6 @@ body {
     transform: scale(1.1);
 }
 .page-footer {
-    background-color: #ffecb3;
+    background-color: var(--cadetblue);
     font-size: 0.8rem;
 }
